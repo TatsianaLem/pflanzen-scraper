@@ -1,20 +1,27 @@
-# Python
+# Python cache/compiled
 __pycache__/
 *.py[cod]
+*$py.class
+
+# Build / packaging
 *.egg-info/
 dist/
 build/
 
-# Virtualenv
+# Virtual environments
 .venv/
 venv/
+env/
+ENV/
 
-# PyCharm
+# IDE / editors
 .idea/
+.vscode/
 
-# Output
+# Logs / outputs
+*.log
 pflanzen.csv
 
-# OS
+# OS generated
 .DS_Store
 Thumbs.db
